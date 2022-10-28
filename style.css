@@ -93,9 +93,15 @@ h4{
     justify-content: center;
     margin-left: 22%;
     margin-right: 20%;
-    margin-top: -1%;
+    margin-top: 1%;
  }
-
+ h5{
+    color: #4D4D4D;
+    font-size: 300%;
+    transform: scale(1, 2);
+    margin: 0;
+    margin-top: 15%
+}
  .h3History{
     padding-top: 13%;
     margin-left: -2%;
@@ -107,6 +113,6 @@ h4{
     justify-content: center;
     background-color: rgb(61,74,97);
     opacity: 0.9;
-    margin-top: 25%;
+    margin-top: 23%;
  }
 
