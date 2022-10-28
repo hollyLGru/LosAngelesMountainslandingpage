@@ -1,13 +1,14 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 body {
     font-family: 'Lato', serif;
-    background-color: black;
+    background-color: white;
 }
 
 header {
     background-image: url("https://scontent.xx.fbcdn.net/v/t1.15752-9/312136474_1543708592734376_7298437643327916630_n.png?_nc_cat=111&ccb=1-7&_nc_sid=aee45a&_nc_ohc=zp7UtOoKMYQAX-nBt4F&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSlqg1iNZ4x6vGyXqjxuPUZ9H-BVKVmClVCyOOGGW0MgA&oe=637F0EF9");
     background-repeat: no-repeat;
     background-size: auto;
+    background-size: contain;
 }
 
 .LinksHeader{
@@ -23,13 +24,25 @@ header {
     margin-top: 12%;
     margin-bottom: 10%;
 }
-/* hry */
+.LAMountain{
+    width: 30%;
+}
 h1{
     color: #4D4D4D;
     font-size: 450%;
-
     transform: scale(1, 2)
 }
+
+@media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 200% !important;
+        margin-top: -10%;
+    }
+    h2 {
+        font-size: 200% !important;
+    }
+    }
+
 /* hmm */
 h2{
     color: rgb(65,79,107);
